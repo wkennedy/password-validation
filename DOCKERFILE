@@ -1,0 +1,9 @@
+FROM perl:5.30
+COPY . /usr/src/app
+WORKDIR /usr/src/app
+RUN curl -L http://cpanmin.us | perl - App::cpanminus
+RUN cpanm Mojo::Base
+
+EXPOSE 3000
+
+CMD [ "morbo", "./script/application.pl" ]
