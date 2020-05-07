@@ -15,7 +15,7 @@ To view a demo of the application, go here (deployed on AWS ECS):
 
 http://ec2co-ecsel-zg9ctrfgctou-1940750782.us-east-1.elb.amazonaws.com:3000/
 
-If you just want to test your application via the command line you can do so with:
+If you just want to run the application via the command line you can do so with:
 
     #windows
     perl ValidatePassword.pl <password>
