@@ -1,3 +1,5 @@
+![CI](https://github.com/wkennedy/password-validation/workflows/CI/badge.svg)
+
 ### Simple Perl Password Validator
 
 This application will allow you to verify that a password meets the following criteria:
